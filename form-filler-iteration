@@ -82,7 +82,7 @@ function FormFiller() {
     };
 
     var _getValue = function (element) {
-        document.getElementById(element).focus()
+        //document.getElementById(element).focus()
         var value = jQuery(element).val();
         return (value === null) ? '' : value.replace(/"/g, '\\"');
     };
