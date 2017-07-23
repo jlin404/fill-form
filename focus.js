@@ -1,1 +1,1 @@
-document.getElementById("lastName").focus()
+javascript:document.getElementById("lastName").focus()
